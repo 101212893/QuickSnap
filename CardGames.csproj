@@ -182,6 +182,9 @@
     <None Include="Resources\sounds\Boom-Kick.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Resources\sounds\slap2.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Target Name="CopyFiles">
     <Copy SourceFiles="@(MacLibraryFiles)" DestinationFolder="$(OutDir)" />
